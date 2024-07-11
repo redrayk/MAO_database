@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="C666AC9C7CFFB9196F5B0D10B9944E3793E27B5CFAB9FADE9B4F6A0FB85D5C871E5885508543F66FD482B1A8DC2AC7B6D539A34E6D3385EF52B5FDD12663E168" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="EDBC9D3E68B971E170872C047D8071E66666653AB877AFA55D1EF1FB25F8320576020F9F1FAF568C3E707D2FD805226BD64C2AFCDBD9DAC726867A2F8D2A4FBC" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Common language components" Name="http://www.ni.com/MocCommon" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -106,14 +106,6 @@
 								<GLibraryProperties Id="945e39bffd26495ebc0bce52e75ea7d2" />
 							</ComponentConfiguration>
 						</ComponentDefinition>
-						<FileReference Bindings=".png" Id="85f15aed72be440d91257436b9ca001f" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Пластина.png" StoragePath="graphic\Пластина.png" />
-						<FileReference Bindings=".png" Id="21fc99d158ce45c8ba90b18bf13dcb19" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Ось.png" StoragePath="graphic\Ось.png" />
-						<FileReference Bindings=".png" Id="ec0943965c0441b0b2238f7589749d98" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Крыльчатка.png" StoragePath="graphic\Крыльчатка.png" />
-						<FileReference Bindings=".png" Id="9990fa24bd27479abf38bbadc7477a6b" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Кольцо.png" StoragePath="graphic\Кольцо.png" />
-						<FileReference Bindings=".png" Id="8143375bff544688b944df18aaefeca9" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Инструмент.png" StoragePath="graphic\Инструмент.png" />
-						<FileReference Bindings=".png" Id="2aa00103830e45d2a722cae037fd8a58" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Диск.png" StoragePath="graphic\Диск.png" />
-						<FileReference Bindings=".png" Id="f159a278b71a4507930156fdd466aa68" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Втулка.png" StoragePath="graphic\Втулка.png" />
-						<FileReference Bindings=".png" Id="b22431677e84c8a965ae2f6fc8c51be" ModelDefinitionType="{http://www.ni.com/PlatformFramework}ExternalFile" Name="Вал.png" StoragePath="graphic\Вал.png" />
 					</EmbeddedDefinitionReference>
 					<SourceFileReference Bindings="EnvoyManager,ComponentMoC,{http://www.ni.com/GComponent.xsd}ComponentBaseType_Application,{http://www.ni.com/SystemDesigner/EnvoyManagement}ProcessBackedEnvoyServiceMetaFactory,ContentKind_{http://www.ni.com/Builders/SystemDesigner/SystemModel}Process.ApplicationComponent" Id="fcdf7ecad67447a3bdb4d169f1bd53fd" ModelDefinitionType="ComponentDefinition" Name="WebApp.gcomp" StoragePath="WebApp.gcomp\WebApp.gcomp" />
 				</NameScopingEnvoy>

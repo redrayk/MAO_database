@@ -407,4 +407,20 @@
 			<string>String Encoding.gtypecache</string>
 		</value>
 	</item>
+	<item>
+		<key>
+			<string>Color_20_80f7adeb8ceb41b196f30ce56eb9230e_5771446c13084774a08f6472ecbd9f30.gtypecache</string>
+		</key>
+		<value>
+			<string>Color.gtypecache</string>
+		</value>
+	</item>
+	<item>
+		<key>
+			<string>Part_info_41fe067bfc184459b0ea778eee0257b9_fcdf7ecad67447a3bdb4d169f1bd53fd.gtypecache</string>
+		</key>
+		<value>
+			<string>Part_info.gtypecache</string>
+		</value>
+	</item>
 </SerializableDictionary>

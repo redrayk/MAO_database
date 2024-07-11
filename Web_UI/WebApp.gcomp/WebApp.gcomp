@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="CBDC394B8DE185CB7A53873F57899EFB6A0E9B0765F247E356E134196A902D5F03310ADEADE4C34B3160FF1621F33F37467E71B88443B6DF59066615C5B09B06" Timestamp="1DACE208CDC36C6" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="406B6D65D81D8BD0A90743662352BFAA7497B8DD446C61ED7E6163DEF3403BA3F9A5C99E819EE4B6C6190502ADCD8F659FC38A947795A3EE415F21005BBEF074" Timestamp="1DAD39BC6693B68" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="GComponentFeatureSet" Name="http://www.ni.com/GComponent.xsd" OldestCompatibleVersion="9.0.0.0" Version="9.0.0.49152" />
 		<ParsableNamespace AssemblyFileVersion="9.5.0.49854" FeatureSetName="Web Module: WebVI" Name="http://www.ni.com/NationalInstruments.LabVIEW.HtmlVI" OldestCompatibleVersion="8.1.0.49152" Version="8.1.0.49152" />
@@ -27,7 +27,8 @@
 				<SourceFileReference Id="c52d553f8bb54973a8526542db9d4dc1" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="index.gviweb" OverridingModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.HTMLVirtualInstrument" StoragePath="index.gviweb" />
 				<SourceFileReference Bindings="EnvoyManager" Id="2926a850b0cf43288e5b49ea8bcf9afc" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="main_states.gtype" StoragePath="main_states.gtype\main_states.gtype" />
 				<SourceFileReference Id="81a7c6ee758a414abe7b0c6ae9eb9b3c" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="States_history.gvi" StoragePath="States_history.gvi" />
-				<SourceFileReference Id="5ee014510a7a473a94758cc8d3886cd9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Function.gvi" StoragePath="Function.gvi" />
+				<SourceFileReference Id="5ee014510a7a473a94758cc8d3886cd9" ModelDefinitionType="NationalInstruments.LabVIEW.VI.Modeling.VirtualInstrument" Name="Patr_info_to_str.gvi" StoragePath="Patr_info_to_str.gvi" />
+				<SourceFileReference Bindings="EnvoyManager" Id="41fe067bfc184459b0ea778eee0257b9" ModelDefinitionType="NationalInstruments.MocCommon.Modeling.TypeDefinition" Name="Part_info.gtype" StoragePath="Part_info.gtype\Part_info.gtype" />
 			</NameScopingEnvoy>
 		</EmbeddedDefinitionReference>
 		<NameScopingEnvoy Id="5b980660bf784182a4f2b622e53eee98" Name="WebApp.gcomp" NameTracksFileName="True">
