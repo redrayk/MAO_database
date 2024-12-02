@@ -10,13 +10,20 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Controls" Type="Folder" URL="../Controls">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
+		<Item Name="File_IO" Type="Folder" URL="../File_IO">
+			<Property Name="NI.DISK" Type="Bool">true</Property>
+		</Item>
 		<Item Name="graphic" Type="Folder" URL="../graphic">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="Test_DB_con.vi" Type="VI" URL="../../КПА_АГС/src/SubVI/UKS/Test_DB_con.vi"/>
 		<Item Name="WebUIService" Type="Web Service">
 			<Property Name="Bld_buildSpecName" Type="Str"></Property>
-			<Property Name="Bld_version.build" Type="Int">10</Property>
+			<Property Name="Bld_version.build" Type="Int">15</Property>
 			<Property Name="ws.autoIncrementVersion" Type="Bool">true</Property>
 			<Property Name="ws.disconnectInline" Type="Bool">true</Property>
 			<Property Name="ws.disconnectTypeDefs" Type="Bool">false</Property>
@@ -28,9 +35,9 @@
 			<Property Name="ws.removeLibraryItems" Type="Bool">true</Property>
 			<Property Name="ws.removePolyVIs" Type="Bool">true</Property>
 			<Property Name="ws.serveDefaultDoc" Type="Bool">true</Property>
-			<Property Name="ws.SSE2" Type="Bool">true</Property>
+			<Property Name="ws.SSE2" Type="Bool">false</Property>
 			<Property Name="ws.static_permissions" Type="Str"></Property>
-			<Property Name="ws.version.build" Type="Int">10</Property>
+			<Property Name="ws.version.build" Type="Int">15</Property>
 			<Property Name="ws.version.fix" Type="Int">0</Property>
 			<Property Name="ws.version.major" Type="Int">1</Property>
 			<Property Name="ws.version.minor" Type="Int">0</Property>
@@ -87,6 +94,22 @@
 					<Property Name="ws.useHeaders" Type="Bool">true</Property>
 					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
 				</Item>
+				<Item Name="Get_recomendation.vi" Type="VI" URL="../Get_recomendation.vi">
+					<Property Name="ws.buffered" Type="Bool">true</Property>
+					<Property Name="ws.includeNameInURL" Type="Bool">true</Property>
+					<Property Name="ws.keepInMemory" Type="Bool">true</Property>
+					<Property Name="ws.loadAtStartup" Type="Bool">true</Property>
+					<Property Name="ws.method" Type="Int">1</Property>
+					<Property Name="ws.outputFormat" Type="Int">4</Property>
+					<Property Name="ws.outputType" Type="Int">0</Property>
+					<Property Name="ws.permissions" Type="Str"></Property>
+					<Property Name="ws.requireAPIKey" Type="Bool">false</Property>
+					<Property Name="ws.requiredPrivilege" Type="Str"></Property>
+					<Property Name="ws.type" Type="Int">1</Property>
+					<Property Name="ws.uri" Type="Str"></Property>
+					<Property Name="ws.useHeaders" Type="Bool">true</Property>
+					<Property Name="ws.useStandardURL" Type="Bool">true</Property>
+				</Item>
 			</Item>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -114,9 +137,13 @@
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="GetHelpDir.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetHelpDir.vi"/>
 				<Item Name="GetRTHostConnectedProp.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/GetRTHostConnectedProp.vi"/>
+				<Item Name="GOOP Object Repository Method.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Method.ctl"/>
+				<Item Name="GOOP Object Repository Statistics.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository Statistics.ctl"/>
+				<Item Name="GOOP Object Repository.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/_goopsup.llb/GOOP Object Repository.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="NI_Database_API.lvlib" Type="Library" URL="/&lt;vilib&gt;/addons/database/NI_Database_API.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_WebServices.lvlib" Type="Library" URL="/&lt;vilib&gt;/wsapi/NI_WebServices.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -131,6 +158,7 @@
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
@@ -159,7 +187,7 @@
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/MDO_database</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{A811323A-9EB9-488D-BB96-753EF83C7B85}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">8</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Application.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/MDO_database/Application.exe</Property>
@@ -189,7 +217,11 @@
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{ECFF30BB-090C-4A7C-A7D6-3D5B3D0ACD87}</Property>
 				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">1</Property>
+				<Property Name="Destination[1].name" Type="Str">graphic</Property>
+				<Property Name="Destination[1].parent" Type="Str">{ECFF30BB-090C-4A7C-A7D6-3D5B3D0ACD87}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
 				<Property Name="DistPart[0].productID" Type="Str">{BD841C5A-94E5-4DA5-9505-2B90212D19C1}</Property>
 				<Property Name="DistPart[0].productName" Type="Str">NI LabVIEW Runtime 2020 SP1 f1</Property>
@@ -244,7 +276,7 @@
 				<Property Name="INST_defaultDir" Type="Str">{ECFF30BB-090C-4A7C-A7D6-3D5B3D0ACD87}</Property>
 				<Property Name="INST_installerName" Type="Str">install.exe</Property>
 				<Property Name="INST_productName" Type="Str">MAO_database</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.5</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.7</Property>
 				<Property Name="INST_webService.count" Type="Int">1</Property>
 				<Property Name="INST_webService[0].itemID" Type="Ref">/My Computer/WebUIService</Property>
 				<Property Name="InstSpecBitness" Type="Str">32-bit</Property>
@@ -269,7 +301,43 @@
 				<Property Name="Source[0].name" Type="Str">MDO_database</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/MDO_database</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
+				<Property Name="Source[1].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[1].name" Type="Str">axis.png</Property>
+				<Property Name="Source[1].tag" Type="Ref">/My Computer/graphic/axis.png</Property>
+				<Property Name="Source[1].type" Type="Str">File</Property>
+				<Property Name="Source[2].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[2].name" Type="Str">blade_tool.png</Property>
+				<Property Name="Source[2].tag" Type="Ref">/My Computer/graphic/blade_tool.png</Property>
+				<Property Name="Source[2].type" Type="Str">File</Property>
+				<Property Name="Source[3].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[3].name" Type="Str">bushing.png</Property>
+				<Property Name="Source[3].tag" Type="Ref">/My Computer/graphic/bushing.png</Property>
+				<Property Name="Source[3].type" Type="Str">File</Property>
+				<Property Name="Source[4].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[4].name" Type="Str">disk.png</Property>
+				<Property Name="Source[4].tag" Type="Ref">/My Computer/graphic/disk.png</Property>
+				<Property Name="Source[4].type" Type="Str">File</Property>
+				<Property Name="Source[5].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[5].name" Type="Str">impeller.png</Property>
+				<Property Name="Source[5].tag" Type="Ref">/My Computer/graphic/impeller.png</Property>
+				<Property Name="Source[5].type" Type="Str">File</Property>
+				<Property Name="Source[6].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[6].name" Type="Str">plate.png</Property>
+				<Property Name="Source[6].tag" Type="Ref">/My Computer/graphic/plate.png</Property>
+				<Property Name="Source[6].type" Type="Str">File</Property>
+				<Property Name="Source[7].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[7].name" Type="Str">ring.png</Property>
+				<Property Name="Source[7].tag" Type="Ref">/My Computer/graphic/ring.png</Property>
+				<Property Name="Source[7].type" Type="Str">File</Property>
+				<Property Name="Source[8].dest" Type="Str">{2C238958-0242-4E50-A1DC-AF2731812B14}</Property>
+				<Property Name="Source[8].name" Type="Str">shaft.png</Property>
+				<Property Name="Source[8].tag" Type="Ref">/My Computer/graphic/shaft.png</Property>
+				<Property Name="Source[8].type" Type="Str">File</Property>
+				<Property Name="Source[9].dest" Type="Str">{ECFF30BB-090C-4A7C-A7D6-3D5B3D0ACD87}</Property>
+				<Property Name="Source[9].name" Type="Str">MAO_database.udl</Property>
+				<Property Name="Source[9].tag" Type="Ref">/My Computer/graphic/MAO_database.udl</Property>
+				<Property Name="Source[9].type" Type="Str">File</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
 			</Item>
 		</Item>
 	</Item>
